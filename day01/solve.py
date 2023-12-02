@@ -35,5 +35,5 @@ def part2(lines):
 
 with open("input.txt", "r") as f:
     lines = f.readlines()
-    print(part1(lines))
-    print(part2(lines))
+    print(part1(lines)) # 55477
+    print(part2(lines)) # 54431
