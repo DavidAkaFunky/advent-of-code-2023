@@ -22,9 +22,7 @@ def part1(times, distances):
     return prod
     
 def part2(times, distances):
-    time = int("".join(times))
-    distance = int("".join(distances))
-    return get_number_of_possible_tries(time, distance)
+    return get_number_of_possible_tries(int("".join(times)), int("".join(distances)))
 
 with open("input.txt", "r") as f:
     lines = f.readlines()
