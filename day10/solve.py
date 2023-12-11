@@ -1,4 +1,3 @@
-
 def get_valid_neighbours(i, j, tile, max_i, max_j):
     neighbours = []
     if i > 0 and tile in "|LJS" and lines[i-1][j] in "|7FS":
